@@ -42,7 +42,6 @@ def music2tags(audio_uri_on_gcs: str):
 
 
 if __name__ == "__main__":
-    # public_sample1()
     # privateなバケットでも大丈夫です。あらかじめファイルをアップロードして下さい
     uri = "gs://your_bucket/sample_music.mp3"
     music2tags(uri)
