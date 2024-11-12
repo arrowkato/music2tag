@@ -46,5 +46,6 @@ def public_sample2():
 
 
 if __name__ == "__main__":
+    # あってもいいはずなんですが、直接音声ファイルを渡すサンプルは見つけられなかったです。
     # public_sample1()
     public_sample2()
