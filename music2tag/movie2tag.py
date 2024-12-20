@@ -31,7 +31,6 @@ class MovieFeature(BaseModel):
 
 
 def movie2tag(movie_uri_on_gcs: str, model_name: str, prompt: str):
-    # Use Gemini 1.5 Pro
     llm = ChatVertexAI(
         model=model_name,
         temparature=0.0,
